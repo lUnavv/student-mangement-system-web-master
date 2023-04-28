@@ -1,0 +1,1 @@
+import{s}from"./request.f1f11a88.js";function o(e,r){return s({url:"scores/getScoreCensus",method:"get",params:{courseId:e,gradeClassId:r}})}function n(e){return s({url:"scores/getScoresContrastCensus",method:"get",params:{courseId:e}})}export{n as a,o as g};
